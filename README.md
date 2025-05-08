@@ -1,47 +1,64 @@
-# Big Data and Data Analytics Assignments
+# Data Processing and Visualization Assignments
 
-## Group A: Assignments based on the Hadoop
+## 1. MapReduce Application
 
-1. Single node/Multiple node Hadoop Installation  
-2. Design a distributed application using MapReduce (Using Java) which processes a log file of a system. List out the users who have logged for maximum period on the system. Use simple log file from the Internet and process it using a pseudo distribution mode on Hadoop platform.  
-3. Write an application using HiveQL for flight information system which will include:  
-   a. Creating, Dropping, and altering Database tables.  
-   b. Creating an external Hive table.  
-   c. Load table with data, insert new values and field in the table, Join tables with Hive  
-   d. Create index on Flight Information Table  
-   e. Find the average departure delay per day in 2008.  
+Design a distributed application using MapReduce (Using Java) which processes a log file of a system. List out the users who have logged for maximum period on the system. Use simple log file from the Internet and process it using a pseudo distribution mode on Hadoop platform.
 
-## Group B: Assignments based on Data Analytics using Python
+## 2. HiveQL Flight Information System
 
-1. Perform the following operations using Python on the Facebook metrics data sets:  
-   a. Create data subsets  
-   b. Merge Data  
-   c. Sort Data  
-   d. Transposing Data  
-   e. Shape and reshape Data  
+Write an application using HiveQL for flight information system which will include:  
+a. Creating, Dropping, and altering Database tables.  
+b. Creating an external Hive table.  
+c. Load table with data, insert new values and field in the table, Join tables with Hive  
+d. Create index on Flight Information Table  
+e. Find the average departure delay per day in 2008.
 
-2. Perform the following operations using Python on the Air quality and Heart Diseases data sets:  
-   a. Data cleaning  
-   b. Data integration  
-   c. Data transformation  
-   d. Error correcting  
-   e. Data model building  
+## 3. Python Operations on Facebook Metrics Data Sets
 
-3. Integrate Python and Hadoop and perform the following operations on forest fire dataset:  
-   a. Data analysis using the Map Reduce in PyHadoop  
-   b. Data mining in Hive  
+Perform the following operations using Python on the Facebook metrics data sets:  
+a. Create data subsets  
+b. Merge Data  
+c. Sort Data  
+d. Transposing Data  
+e. Shape and reshape Data
 
-4. Visualize the data using Python libraries matplotlib, seaborn by plotting the graphs for assignment no. 2 and 3 (Group B)  
+## 4. Python Operations on Heart Diseases Data Sets
 
-5. Perform the following data visualization operations using Tableau on Adult and Iris datasets:  
-   a. 1D (Linear) Data visualization  
-   b. 2D (Planar) Data Visualization  
-   c. 3D (Volumetric) Data Visualization  
-   d. Temporal Data Visualization  
-   e. Multidimensional Data Visualization  
-   f. Tree/ Hierarchical Data visualization  
-   g. Network Data visualization  
+Perform the following operations using Python on the Heart Diseases data sets:  
+a. Data cleaning  
+b. Data integration  
+c. Data transformation  
+d. Error correcting  
+e. Data model building
 
-## Group C: Model Implementation
+## 5. Python Operations on Air Quality Data Sets
 
-1. Create a review scrapper for any ecommerce website to fetch real time comments, reviews, ratings, comment tags, customer name using Python.  
+Perform the following operations using Python on the Air quality data sets:  
+a. Data cleaning  
+b. Data integration  
+c. Data transformation  
+d. Error correcting  
+e. Data model building
+
+## 6. Data Visualization for Air Quality Data
+
+Visualize the data using Python libraries matplotlib, seaborn by plotting the graphs for assignment no. Air quality.
+
+## 7. Data Visualization for Heart Diseases Data Sets
+
+Visualize the data using Python libraries matplotlib, seaborn by plotting the graphs for assignment no. Heart Diseases data sets.
+
+## 8. Tableau Data Visualization on Adult and Iris Datasets
+
+Perform the following data visualization operations using Tableau on Adult and Iris datasets:  
+a. 1D (Linear) Data visualization  
+b. 2D (Planar) Data Visualization  
+c. 3D (Volumetric) Data Visualization  
+d. Temporal Data Visualization  
+e. Multidimensional Data Visualization  
+f. Tree/ Hierarchical Data visualization  
+g. Network Data visualization
+
+## 9. Review Scrapper Using Python
+
+Create a review scrapper for any ecommerce website to fetch real time comments, reviews, ratings, comment tags, customer name using Python.
